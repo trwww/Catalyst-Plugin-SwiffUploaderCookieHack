@@ -2,7 +2,13 @@ package TestApp;
 use Moose;
 use namespace::autoclean;
 
-use Catalyst;
+use Catalyst qw(
+  SwiffUploaderCookieHack
+
+  Session
+  Session::Store::File
+  Session::State::Cookie
+);
 
 extends 'Catalyst';
 

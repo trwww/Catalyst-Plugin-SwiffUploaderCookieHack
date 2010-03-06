@@ -13,6 +13,9 @@ requires 'namespace::autoclean';
 build_requires 'Catalyst::Runtime' => '5.80015';
 build_requires 'Test::WWW::Mechanize::Catalyst';
 build_requires 'Test::More' => '0.88';
+build_requires 'Catalyst::Plugin::Session::State::Cookie' => '0.17';
+build_requires 'Catalyst::Plugin::Session::Store::File' => '0.18';
+build_requires 'CGI::Simple::Cookie';
 
 author_requires 'Test::Pod::Coverage' => '1.04';
 author_requires 'Test::Pod' => '1.14';
