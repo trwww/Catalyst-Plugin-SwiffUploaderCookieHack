@@ -71,7 +71,7 @@ C<use Catalyst(...)> argument list so it runs early.
 
 =head1 AUTHOR
 
-Todd Wade <trwww@waveright.com>
+Todd Wade <waveright@gmail.com>
 
 =head1 COPYRIGHT & LICENSE
 
